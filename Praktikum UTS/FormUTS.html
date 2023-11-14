@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Praktikum UTS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        table {
+    margin: 20px auto;
+    border: 2px solid;        
+        }
+        .btn-daftar {
+            margin: 20px;
+            background-color: azure; 
+            border-radius: 5px;
+            padding: 5px;
+        }
+        input, select {
+            height: 20px;
+        }
+        input, select, textarea {
+            border-radius: 4px;
+        }
+        .depan {
+            display: block;
+    
+    font-size: 14px;
+    font-weight: 600;
+        }
+         
+    </style>
+</head>
+<body>
+    <h1>UTS Form 13</h1>
+
+    
+        <form action="#">
+            
+            <table>
+                <tr>
+                    <td>
+                        Cari Civitas Akademika 
+                    </td>
+                    <td>
+                        <textarea name="searc" id="search" cols="20" rows="1">Search</textarea>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="depan">
+                        Nama Lengkap : 
+                    </td>
+                    <td>
+                        Muhammad Asyam Al Farisi
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="depan">
+                        Asal Prodi :
+                    </td>
+                    <td>
+                        Teknik Informatika
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="depan">
+                        Jenis Kendaraan :
+                    </td>
+                    <td>
+                        <input type="radio" name="kendaraan" value="motor" checked>Motor
+                        <input type="radio" name="kendaraan" value="mobil">Mobil
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="depan">
+                        NoPol :
+                    </td>
+                    <td>
+                        <input type="number" name="nopol" id="nopol">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="depan">
+                        Merk :
+                    </td>
+                    <td>
+                        <input type="text" name="merk" id="merk">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="depan">
+                        Upload STNK :
+                    </td>
+                    <td>
+                        <input type="url">
+                    </td>
+                    <td>
+                        <button>Browse</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="btn-daftar">Daftar</button>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+
+        </form>
+    
+    
+</body>
+</html>
